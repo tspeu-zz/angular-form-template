@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/*@import '~@angular/material/theming';*/
+
+
+/**/
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+
+/*@import '~@angular/material/prebuilt-themes/indigo-pink.css';*/
+
+/*@import '~@angular/material/prebuilt-themes/pink-bluegrey.css';*/
+
+/*
+$colors: ( primary: #795548, secondary: #35261A, second2: #3e2723, dark-2: #5D4037, danger: #f53d3d, light: #f4f4f4, dark: #222, errorBlue: #000082, primary-color-dark: #5D4037, primary-color: #795548, primary-color-light: #D7CCC8, primary-color-text: #FFFFFF, accent-color: #CDDC39, primary-text-color: #212121, secondary-text-color: #757575, divider-color: #BDBDBD, marron: #5d4037, verde: #cddc39, logo: #AFC309, verdeFuerte: #c6ff00, bankiaVerde: #B2C300, bankiaVerde2: #BCC72F, bankiaVerde3: #6F7800, bankiaVerde4: #B8C800, bankiaMarron: #463525, bankiaMarron2: #35261A);
+*/
+
+
+/*@include mat-core();
+
+// Define the default theme (same as the example above).
+$candy-app-primary: mat-palette($mat-indigo);
+$candy-app-accent: mat-palette($mat-pink, A200, A100, A400);
+$candy-app-theme: mat-light-theme($candy-app-primary, $candy-app-accent);
+// Include the default theme styles.
+@include angular-material-theme($candy-app-theme);
+// Define an alternate dark theme.
+$dark-primary: mat-palette($mat-blue-grey);
+$dark-accent: mat-palette($mat-amber, A200, A100, A400);
+$dark-warn: mat-palette($mat-deep-orange);
+$dark-theme: mat-dark-theme($dark-primary, $dark-accent, $dark-warn);
+// Include the alternative theme styles inside of a block with a CSS class. You can make this
+// CSS class whatever you want. In this example, any component inside of an element with
+// `.unicorn-dark-theme` will be affected by this alternate dark theme instead of the default theme.
+.unicorn-dark-theme {
+    @include angular-material-theme($dark-theme);
+}
+*/
+
+
+/* Define a mixin that accepts a theme and outputs the color styles for the component.*/
