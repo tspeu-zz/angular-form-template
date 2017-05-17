@@ -1,0 +1,27 @@
+<md-card class="carta">
+
+    <md-card-header>
+    <h1>Sociedades Afectadas</h1>
+    </md-card-header>
+    <md-card-content>
+    <form>
+      <div class="form-group">
+        <label for="name">DENOMINACIÓN</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="alterEgo">CIF</label>
+        <input type="text" class="form-control" id="alterEgo">
+      </div>
+      <div class="form-group">
+        <label for="power">DESCRIPCION</label>
+        <select class="form-control" id="alterEgo" required>
+            <option *ngFor="let pow of alterEgo" [value]="pow">{{pow}}</option>
+        </select>
+     </div>
+      <button type="submit" class="btn btn-success">Añadir</button>
+      <button type="submit" class="btn btn-danger">Cancelar</button>
+    </form>
+    </md-card-content>
+
+</md-card>

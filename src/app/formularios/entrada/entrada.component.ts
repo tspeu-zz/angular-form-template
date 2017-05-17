@@ -33,11 +33,16 @@ export class EntradaComponent implements OnInit {
    }
 
    filtroEstados(param : string){
-    return param ? this.states.filter(estado => new RegExp(`^${param}`,`a`).test(estado) )
+    return param ? this.states.filter(estado => new RegExp(`^${param}`,'gi').test(estado) )
                 : this.states;
 
 
    }
+
+     filterStates(val: string) {
+    return val ? this.states.filter(s => new RegExp(`^${val}`, 'gi').test(s))
+               : this.states;
+  }
 
   ngOnInit() {
   }

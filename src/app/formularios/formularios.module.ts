@@ -5,7 +5,11 @@ import {MaterialModule} from '@angular/material';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { FormComponent } from './form/form.component';
-//import { EntradaComponent } from './entrada/entrada.component';
+import { EntradaComponent } from './entrada/entrada.component';
+import { CamposComponent } from './campos/campos.component';
+import { BuscarComponent } from './buscar/buscar.component';
+import { FechaComponent } from './fecha/fecha.component';
+import { SosciedComponent } from './soscied/soscied.component';
 
 @NgModule({
   imports: [
@@ -20,7 +24,9 @@ import { FormComponent } from './form/form.component';
   ],
   declarations:[ 
     FormComponent,
- //   EntradaComponent
+    EntradaComponent, CamposComponent, BuscarComponent,
+    FechaComponent,
+    SosciedComponent,
   ],
     exports:      [ FormComponent ]
 })

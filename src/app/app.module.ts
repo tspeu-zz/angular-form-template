@@ -11,13 +11,16 @@ import { AppComponent } from './app.component';
 //import { EntradaComponent } from './entrada/entrada.component';
 import {FormulariosModule} from './formularios/formularios.module';
 import { CamposPipe } from './campos.pipe';
-import { CamposComponent } from './campos/campos.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     CamposPipe,
-    CamposComponent
+    
+//    CamposComponent,
+//    BuscarComponent
 
   ],
   imports: [

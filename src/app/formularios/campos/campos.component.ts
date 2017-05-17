@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import {MdInputModule, MdAutocompleteModule} from '@angular/material';
+
+import {FormControl, ReactiveFormsModule} from '@angular/forms';
+
 
 @Component({
   selector: 'app-campos',
