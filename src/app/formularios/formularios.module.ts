@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule   }  from '@angular/forms';
-import {MaterialModule} from '@angular/material';
+import {MaterialModule, MdNativeDateModule} from '@angular/material';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { FormComponent } from './form/form.component';
@@ -19,7 +19,8 @@ import { SosciedComponent } from './soscied/soscied.component';
     FormsModule,
     ReactiveFormsModule ,
     MaterialModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MdNativeDateModule
     
   ],
   declarations:[ 

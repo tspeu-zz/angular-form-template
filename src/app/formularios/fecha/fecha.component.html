@@ -1,3 +1,9 @@
-<p>
-  fecha works!
-</p>
+<div>
+<md-input-container>
+  <input mdInput [mdDatepicker]="picker" placeholder="F COMUNICACIÓN"
+  value="hola">
+  <button mdSuffix [mdDatepickerToggle]="picker"></button>
+</md-input-container>
+<md-datepicker #picker></md-datepicker>
+
+</div>

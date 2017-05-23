@@ -7,7 +7,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BuscarComponent implements OnInit {
 
-  constructor() { }
+ title : string ="";
+  titulo :string = `Nombre de la operación/ Información`;
+  
+  constructor() { 
+    this.setTitle(this.titulo);
+  }
+
+  setTitle(val : string) {
+    this.title = val;
+  }
+
+  getTitle(){
+    return this.title;
+  }
 
   ngOnInit() {
   }
